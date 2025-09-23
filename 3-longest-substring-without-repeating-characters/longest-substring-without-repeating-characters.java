@@ -10,9 +10,7 @@ class Solution {
             left++;
            }
            set.add(c);
-           if(max<=set.size()){
-            max=set.size();
-            }
+           max=Math.max(max,set.size());
         }
         
         return max;
