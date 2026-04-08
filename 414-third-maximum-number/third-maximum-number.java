@@ -17,9 +17,7 @@ class Solution {
                 tmax=n;
             }
         }
-        if(tmax!=Long.MIN_VALUE){
-            return (int)tmax;
-        }
-        return (int)max;
+        
+        return tmax!=Long.MIN_VALUE?(int)tmax:(int)max;
     }
 }
